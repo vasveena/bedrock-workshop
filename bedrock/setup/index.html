@@ -8,19 +8,19 @@
       
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.11">
     
     
       
-        <title>GenAI Immersion Day</title>
+        <title>Amazon Bedrock Workshop - GenAI Immersion Day</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.50e68009.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50e68009.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
         
       
     
@@ -34,7 +34,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-genai-immersion-day" class="md-skip">
+        <a href="#amazon-bedrock-workshop-setup" class="md-skip">
           Skip to content
         </a>
       
@@ -72,7 +72,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="GenAI Immersion Day" class="md-header__button md-logo" aria-label="GenAI Immersion Day" data-md-component="logo">
+    <a href="../.." title="GenAI Immersion Day" class="md-header__button md-logo" aria-label="GenAI Immersion Day" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Amazon Bedrock Workshop
             
           </span>
         </div>
@@ -158,7 +158,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="GenAI Immersion Day" class="md-nav__button md-logo" aria-label="GenAI Immersion Day" data-md-component="logo">
+    <a href="../.." title="GenAI Immersion Day" class="md-nav__button md-logo" aria-label="GenAI Immersion Day" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -168,6 +168,36 @@
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sagemaker/setup/" class="md-nav__link">
+        Amazon Sagemaker FM Workshop
+      </a>
+    </li>
+  
+
     
       
       
@@ -186,40 +216,10 @@
         
       
       
-      <a href="." class="md-nav__link md-nav__link--active">
-        Introduction
-      </a>
-      
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="sagemaker/setup/" class="md-nav__link">
-        Amazon Sagemaker FM Workshop
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="bedrock/setup/" class="md-nav__link">
+      <a href="./" class="md-nav__link md-nav__link--active">
         Amazon Bedrock Workshop
       </a>
+      
     </li>
   
 
@@ -255,11 +255,79 @@
               
                 
 
-<h1 id="welcome-to-genai-immersion-day">Welcome to GenAI Immersion Day</h1>
-<p>This page contains setup information for the following labs: </p>
+<h1 id="amazon-bedrock-workshop-setup"><strong>Amazon Bedrock Workshop Setup</strong></h1>
+<p>For Bedrock exercises, we will not be using the account we used to run the previous labs. </p>
 <ol>
-<li>Amazon Sagemaker Foundation Models Workshop</li>
-<li>Amazon Bedrock Workshop</li>
+<li>In your browser, open AWS Console Login link provided to you via email. <em>Example: https://123456789012.signin.aws.amazon.com/console</em>.</li>
+<li>Enter the AWS user name and password provided via email to login to the AWS Console.
+   <img alt="br - 1" src="../images/br-1.png" /></li>
+<li>
+<p>Once logged in, go to <strong><a href="https://us-east-1.console.aws.amazon.com/sagemaker/home?region=us-east-1#/studio" target="_blank">Sagemaker Console -&gt; Domains</a></strong>. <br> <strong>Important: Make sure you are in N. Virginia (us-east-1) region</strong></p>
+</li>
+<li>
+<p>You should see a domain named <strong>genai-domain</strong>. Select the domain. </p>
+</li>
+<li>
+<p>Click on <strong>Add user</strong> to add a user profile.
+   <img alt="br - 2" src="../images/br-2.png" /></p>
+</li>
+<li>
+<p>Under <em>General Settings</em>, name your user profile with your first and last name. <em>Example: AaronSmith</em>. Keep the execution role default. Go to Next. 
+   <img alt="br - 3" src="../images/br-3.png" /></p>
+</li>
+<li>Do not change any other configurations. Click <strong>Submit</strong> and create your user profile.
+   <img alt="br - 4" src="../images/br-4.png" />
+    You may see the following error. Ignore it.
+   <img alt="br - 5" src="../images/br-5.png" /></li>
+<li>
+<p>Now you should see your user profile created. Click on <strong>Launch -&gt; Studio</strong> (on the right hand side).
+   <img alt="br - 6" src="../images/br-6.png" /></p>
+</li>
+<li>
+<p>This will take you to Sagemaker Studio interface.</p>
+</li>
+<li>
+<p>Once the interface is initialized, go to <strong>File -&gt; New -&gt; Terminal</strong>.
+    <img alt="br - 7" src="../images/br-7.png" /></p>
+</li>
+<li>
+<p>In the Terminal, we will run the following commands.<br>
+    <code>sudo yum install -y wget</code> <br>
+    <code>sudo yum install -y unzip</code> <br>
+    <code>wget https://vasveena-bedrock.s3.amazonaws.com/bedrock-workshop-main.zip</code> <br>
+    <code>unzip bedrock-workshop-main.zip</code> <br>
+    <code>rm -rf bedrock-workshop-main.zip</code> <br></p>
+</li>
+<li>
+<p>After the running the commands, navigate to the <img alt="br - 8" src="../images/br-8.png" /> icon to see the <strong>bedrock-workshop-main</strong> folder.
+    <img alt="br - 9" src="../images/br-9.png" /></p>
+</li>
+<li>
+<p>Click on the folder <strong>bedrock-workshop-main</strong> and go to <strong>00_Intro</strong> folder and open <strong>bedrock-boto3-setup.ipynb</strong> file.
+    <img alt="br - 10" src="../images/br-10.png" /></p>
+</li>
+<li>
+<p>Change the Image and Kernel to <strong>Data Science 3.0</strong> and <strong>Python 3</strong>. It takes 4-5 minutes for the kernel to initialize. 
+    <img alt="br - 11" src="../images/br-11.png" /></p>
+</li>
+<li>
+<p>Once the kernel is started, make sure the right image and kernel is selected in the top right corner. <strong>This is very important</strong>. If you choose an incorrect kernel, the notebooks will <strong>NOT</strong> run as expected.
+    <img alt="br - 12" src="../images/br-12.png" /></p>
+<p><strong>Note: You need to do steps 14 and 15 for ALL the Bedrock notebooks you will be running in this workshop.</strong></p>
+</li>
+<li>
+<p>Start running the notebook blocks. In the block where you see <strong>Uncomment the following lines to run from your local environment outside of the AWS account with Bedrock access</strong>, add the following values in the cell. You do not need to un-comment the existing lines. </p>
+<p><code>import os</code> <br>
+<code>os.environ['BEDROCK_ASSUME_ROLE'] = 'arn:aws:iam::626103420214:role/bedrockadmin'</code> <br></p>
+<p><img alt="br - 13" src="../images/br-13.png" />
+Note: In all notebooks, you will follow the same procedure wherever you see the comment <strong>Uncomment the following lines to run from your local environment outside of the AWS account with Bedrock access</strong>. </p>
+</li>
+<li>
+<p>Run the notebook blocks and make sure they are getting executed without errors. </p>
+</li>
+<li>
+<p>Now, we will run the other notebooks. Explanations are in the <a href="https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US" target="_blank">Bedrock workshop</a>.</p>
+</li>
 </ol>
 
               
@@ -273,21 +341,21 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-      
         
-        <a href="sagemaker/setup/" class="md-footer__link md-footer__link--next" aria-label="Next: Amazon Sagemaker FM Workshop" rel="next">
+        <a href="../../sagemaker/setup/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Amazon Sagemaker FM Workshop" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
-                Next
+                Previous
               </span>
               Amazon Sagemaker FM Workshop
             </div>
           </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
         </a>
+      
       
     </nav>
   
@@ -311,10 +379,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.092fa1f6.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.092fa1f6.min.js"}</script>
     
     
-      <script src="assets/javascripts/bundle.5a9542cf.min.js"></script>
+      <script src="../../assets/javascripts/bundle.5a9542cf.min.js"></script>
       
     
   </body>
